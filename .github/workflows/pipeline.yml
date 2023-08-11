@@ -9,5 +9,7 @@ jobs:
   main-job:
     runs-on: ubuntu-latest
     steps:
+      - name: call action-1
+        uses: sffortytwo/data-pipeline-library/action-1@main
       - name: call action-2
         uses: sffortytwo/data-pipeline-library/action-2@main
