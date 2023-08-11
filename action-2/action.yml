@@ -1,0 +1,9 @@
+name: action-2
+description: 'action-2'
+
+runs:
+  using: 'composite'
+  steps:
+    - name: action-2
+      run: echo "action-2"
+      shell: bash
