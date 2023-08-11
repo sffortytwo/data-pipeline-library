@@ -9,5 +9,5 @@ jobs:
   main-job:
     runs-on: ubuntu-latest
     steps:
-      - name: Debug
-        run: echo "Hello, world!"
+      - name: call action-1
+        uses: sffortytwo/data-pipeline-library@main
