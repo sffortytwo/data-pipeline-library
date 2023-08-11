@@ -1,0 +1,13 @@
+on:
+  workflow_call:
+    inputs:
+      username:
+        type: string
+        required: true
+
+jobs:
+  main-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Debug
+        run: echo "Hello, world!"
